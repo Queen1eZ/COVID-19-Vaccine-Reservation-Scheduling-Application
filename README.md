@@ -12,3 +12,19 @@ We need the following entity sets in our database schema design
 ●	Vaccines: these are vaccine doses in the health organization’s inventory of medical supplies that are on hand and ready to be given to the patients.
 
 ●	Reservations: these are appointments that patients will book.
+
+
+## Details
+●	scheduler.py
+  * the main runner for your command-line interface
+
+●	scheduler.model
+  * Caregiver.py: data model for caregivers
+  * Vaccine.py: data model for vaccines
+  * Patient.py: data model for patients
+
+●	scheduler.db
+  * ConnectionManager.py: a wrapper class to help instantiate the connection to the SQL Server database
+
+●	resources
+  * create.sql: the create statement for tables
